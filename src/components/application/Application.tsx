@@ -1,3 +1,4 @@
+import bcg from "../../assets/hero-bcg-2.jpeg";
 const Application = () => {
 	return (
 		<>
@@ -5,7 +6,7 @@ const Application = () => {
 			<h2>Section 1</h2>
 			<p>All fields are mandatory</p>
 			<span title="close">X</span>
-			<img src="https://via.placeholder.com/150" alt="a person with a laptop" />
+			<img src={bcg} alt="a person with a laptop" />
 			<div data-testid="custom-element">Custom HTML element</div>
 			<form>
 				<div>

@@ -6,9 +6,9 @@ import Skills from "./components/skills/Skills";
 function App() {
 	return (
 		<div className="App">
-			<Application />
-			<Skills skills={["HTML", "CSS", "JavaScript"]} />
-			<Counter />
+			{/* <Application />
+			<Skills skills={["HTML", "CSS", "JavaScript"]} /> */}
+			{/* <Counter /> */}
 		</div>
 	);
 }
